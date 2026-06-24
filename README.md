@@ -1,11 +1,3 @@
-# 📊 PRESENTASI DATA MINING 2026
-**Kelompok 3** | Mata Kuliah: Data Mining
-
----
-
-## Slide 1: Judul Project
-> ⏱ Waktu: ±1,5 menit
-
 ### Judul Project
 **"Analisis Sentimen Ulasan Produk Shopee Menggunakan Klasifikasi Machine Learning: Komparasi SVM, Naïve Bayes, dan KNN"**
 *(Studi Kasus: Toko Bummi Tani — Tepung Ketan Hitam)*
@@ -18,9 +10,10 @@
 
 | No | Nama Anggota |
 |----|-------------|
-| 1  | *(isi nama)* |
-| 2  | *(isi nama)* |
-| 3  | *(isi nama)* |
+| 1  | Mochammad Fadhail Fijratullah |
+| 2  | Muhammad Haekal Syukur |
+| 3  | Muhammad Ferdy Leoza |
+| 4  | Muhammad Fadel Al Mustofa|
 
 ---
 
@@ -45,8 +38,6 @@
 
 ---
 
-### Pertanyaan yang Dijawab
-
 | Pertanyaan | Jawaban |
 |------------|---------|
 | Apa masalah nyata yang ingin diselesaikan? | Sulitnya menganalisis ratusan ulasan teks secara manual untuk menilai kepuasan pelanggan UMKM di Shopee |
@@ -57,9 +48,6 @@
 ---
 
 ---
-
-## Slide 2: Dataset dan Preprocessing
-> ⏱ Waktu: ±2 menit
 
 ### Dataset dan Kondisi Awal
 
@@ -156,14 +144,7 @@
 
 ---
 
-**Visualisasi:** Bar chart distribusi label sentimen (Positif: 424 vs Negatif: 61) + Flowchart pipeline preprocessing 6 tahap
-
 ---
-
----
-
-## Slide 3: Model Awal dan Skenario Eksperimen
-> ⏱ Waktu: ±2 menit
 
 ### Model Awal
 
@@ -220,9 +201,6 @@
 ---
 
 ---
-
-## Slide 4: Hasil Evaluasi dan Interpretasi Awal
-> ⏱ Waktu: ±3 menit
 
 ### Hasil Evaluasi — Classification
 
@@ -290,9 +268,6 @@
 
 ---
 
-## Slide 5: Progress Laporan, Kendala, dan Rencana Final
-> ⏱ Waktu: ±1,5 menit
-
 ### Progress Laporan
 
 | Bab | Status | Isi |
@@ -318,32 +293,9 @@
 
 ---
 
-### Target Output Akhir
-
-| Output | Status |
-|--------|--------|
-| 📄 Laporan lengkap (Bab I–V) | 🔄 Bab II & V perlu dilengkapi |
-| 📓 Notebook CRISP-DM (6 fase) | 🔄 4 dari 6 fase selesai (Evaluation & Deployment menyusul) |
-| 📊 Dataset bersih `ulasan_bersih.csv` | ✅ Tersimpan (485 baris, siap pakai) |
-| 🤖 Model terlatih `.pkl` | ✅ `svm_model.pkl`, `nb_model.pkl`, `knn_model.pkl` |
-| 📑 Slide Presentasi | 🔄 Sedang dikerjakan |
-| 🔬 Jurnal Mini | ❌ Belum dimulai |
-
 ---
 
-### Penutup Presentasi
-
-> **Capaian saat ini:**
-> Pipeline analisis sentimen dari scraping hingga modeling telah selesai dibangun — SVM berhasil mencapai akurasi **80.41%** pada data uji dengan 10-Fold CV **95.87%**, melampaui target yang ditetapkan.
-
-> **Rencana menuju final:**
-> Kami akan menyempurnakan pelabelan lexicon, menyelesaikan notebook Evaluation & Deployment, menambahkan visualisasi WordCloud, serta melengkapi referensi jurnal untuk memperkuat validitas laporan akhir.
-
----
-
----
-
-## 📌 Ringkasan Eksekutif (Backup Slide)
+## Ringkasan Eksekutif (Backup Slide)
 
 ```
 ┌──────────────────────────────────────────────────────┐
