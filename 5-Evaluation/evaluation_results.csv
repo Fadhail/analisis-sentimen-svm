@@ -1,0 +1,4 @@
+Model,Accuracy (%),Precision (%),Recall (%),F1-Score (%)
+SVM (Kernel Linear),80.4124,87.1952,80.4124,82.8129
+Multinomial Naïve Bayes,77.3196,87.7954,77.3196,80.6775
+KNN,74.2268,85.887,74.2268,78.1382

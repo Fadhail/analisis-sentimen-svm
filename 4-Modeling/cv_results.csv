@@ -1,0 +1,4 @@
+Model,Rata-rata Akurasi CV (%),Std Deviasi (%),Waktu CV (detik)
+SVM (Kernel Linear),95.8692,2.5343,5.3454
+Multinomial Naïve Bayes,90.7024,2.6582,0.1309
+KNN (k=5),88.4965,3.9967,0.3226
