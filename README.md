@@ -268,18 +268,6 @@
 
 ---
 
-### Progress Laporan
-
-| Bab | Status | Isi |
-|-----|--------|-----|
-| **Bab I** | ✅ Selesai | Latar belakang e-commerce & UMKM, rumusan masalah, tujuan klasifikasi sentimen, manfaat bagi toko Bummi Tani |
-| **Bab II** | 🔄 80% | Teori SVM, Naïve Bayes, KNN; penjelasan TF-IDF, SMOTE, InSet Lexicon, CRISP-DM — **perlu tambah 3–5 referensi jurnal** |
-| **Bab III** | ✅ Selesai | Metodologi CRISP-DM 6 fase, sumber data (scraping Shopee), pipeline preprocessing 6 tahap, skenario 3 model + 10-Fold CV |
-| **Bab IV** | ✅ Selesai | Hasil CV & evaluasi data uji, confusion matrix, tabel komparasi metrik, visualisasi distribusi skor sentimen |
-| **Bab V** | 🔄 60% | Kesimpulan awal (SVM terbaik), analisis ketidakseimbangan data — **perlu rekomendasi perbaikan lebih detail** |
-
----
-
 ### Kendala dan Rencana Perbaikan
 
 | Kendala | Dampak | Rencana Perbaikan |
@@ -292,28 +280,3 @@
 | **Visualisasi WordCloud belum dibuat** | Kata dominan belum tergambarkan secara visual | Buat WordCloud untuk kata-kata berpengaruh Positif dan Negatif |
 
 ---
-
----
-
-## Ringkasan Eksekutif (Backup Slide)
-
-```
-┌──────────────────────────────────────────────────────┐
-│       ANALISIS SENTIMEN SHOPEE — BUMMI TANI          │
-│              Kelompok 3 | Data Mining 2026           │
-├──────────────────────────────────────────────────────┤
-│  DATASET  : 499 ulasan Shopee → 485 data bersih      │
-│  LABEL    : Positif 424 (87%) | Negatif 61 (13%)    │
-│  FITUR    : TF-IDF 801 fitur (unigram + bigram)      │
-│  VALIDASI : 10-Fold Stratified CV + SMOTE            │
-├────────────────┬───────────┬────────────┬────────────┤
-│ MODEL          │ CV Acc    │ Test Acc   │ F1-Score   │
-├────────────────┼───────────┼────────────┼────────────┤
-│ SVM       🥇   │  95.87%   │  80.41% ✅ │  82.81%   │
-│ Naïve Bayes    │  90.70%   │  77.32%    │  80.68%   │
-│ KNN            │  88.50%   │  74.23%    │  78.14%   │
-├────────────────┴───────────┴────────────┴────────────┤
-│  PEMENANG : SVM (Kernel Linear, C=1.0)               │
-│  KENDALA  : Imbalance kelas → Recall Negatif = 0.67  │
-└──────────────────────────────────────────────────────┘
-```
